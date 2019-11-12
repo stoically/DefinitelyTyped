@@ -227,6 +227,17 @@ declare namespace SemanticUI {
             // region Frequently Used Settings
 
             /**
+             * When specified allows you to initialize dropdown with specific values. See usage guide for details.
+             * 
+             * @default false
+             * @see {@link https://semantic-ui.com/modules/dropdown.html#/usage}
+             */
+            values: false | {
+                name: string,
+                value: string,
+                selected?: boolean,
+            }[];
+            /**
              * Event used to trigger dropdown (Hover, Click, Custom Event)
              *
              * @default 'click'
