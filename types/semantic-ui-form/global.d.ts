@@ -299,7 +299,7 @@ declare namespace SemanticUI {
 
     namespace Form {
         interface Field {
-            identifier: string;
+            identifier?: string;
             optional?: boolean;
             rules: Rule[];
         }
