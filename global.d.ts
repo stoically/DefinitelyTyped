@@ -301,7 +301,7 @@ declare namespace SemanticUI {
             /**
              * @default 'auto'
              */
-            placeholder: 'auto' | 'value' | false;
+            placeholder: 'auto' | string | false;
 
             // endregion
 
