@@ -1,0 +1,30 @@
+{
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Leonard Thieu",
+      "url": "https://github.com/leonard-thieu"
+    }
+  ],
+  "dependencies": {
+    "@types/jquery": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for semantic-ui-form",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/semantic-ui-form",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.3",
+  "types": "index",
+  "typesPublisherContentHash": "0e404f6becb840dc089edfb7af8d3eaff14138effd17cc542c67abab13ecdcb2",
+  "version": "2.2.5"
+}
