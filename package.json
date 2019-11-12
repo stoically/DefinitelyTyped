@@ -1,0 +1,31 @@
+{
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Leonard Thieu",
+      "url": "https://github.com/leonard-thieu"
+    }
+  ],
+  "dependencies": {
+    "@types/jquery": "*",
+    "@types/semantic-ui-api": "*"
+  },
+  "deprecated": false,
+  "description": "TypeScript definitions for semantic-ui-dropdown",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/semantic-ui-dropdown",
+  "peerDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.3",
+  "typesPublisherContentHash": "bb6daa0439ece27fb8ab161947105063e88b5558fe213d8abe69752f4eeb375d",
+  "version": "2.2.2"
+}
