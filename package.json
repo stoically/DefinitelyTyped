@@ -1,38 +1,29 @@
 {
-    "private": true,
-    "name": "definitely-typed",
-    "version": "0.0.3",
-    "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped",
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git"
-    },
-    "license": "MIT",
-    "bugs": {
-        "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
-    },
-    "engines": {
-        "node": ">=7.8.0"
-    },
-    "scripts": {
-        "compile-scripts": "tsc -p scripts",
-        "not-needed": "node scripts/not-needed.js",
-        "update-codeowners": "node scripts/update-codeowners.js",
-        "test": "node node_modules/@definitelytyped/dtslint-runner/dist/index.js --path .",
-        "lint": "dtslint types",
-        "prettier": "prettier"
-    },
-    "devDependencies": {
-        "@definitelytyped/dtslint-runner": "latest",
-        "danger": "^10.1.1",
-        "dtslint": "latest",
-        "prettier": "^2.0.2",
-        "typescript": "next"
-    },
-    "husky": {
-        "hooks": {
-            "_comment": "This will remove husky from when we started migrating to use prettier",
-            "pre-commit": "npm uninstall husky"
-        }
+  "bugs": {
+    "url": "https://github.com/DefinitelyTyped/DefinitelyTyped/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "Jasmin Bom",
+      "url": "https://github.com/jsmnbom"
     }
+  ],
+  "dependencies": {},
+  "deprecated": false,
+  "description": "TypeScript definitions for WebExtension Development in FireFox",
+  "homepage": "https://github.com/DefinitelyTyped/DefinitelyTyped#readme",
+  "license": "MIT",
+  "main": "",
+  "name": "@types/firefox-webext-browser",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DefinitelyTyped/DefinitelyTyped.git",
+    "directory": "types/firefox-webext-browser"
+  },
+  "scripts": {},
+  "typeScriptVersion": "2.9",
+  "types": "index",
+  "typesPublisherContentHash": "00d7ea0c85bfc6077c7c05cb046b346b9c68674664584b1e15a04d74b7665513",
+  "version": "70.0.1"
 }
