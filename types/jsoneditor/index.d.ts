@@ -19,7 +19,7 @@ declare module 'jsoneditor' {
         path: JSONPath;
     }
 
-    export type JSONEditorMode = 'tree' | 'view' | 'form' | 'code' | 'text';
+    export type JSONEditorMode = 'tree' | 'view' | 'form' | 'code' | 'text' | 'preview';
 
     export interface NodeName {
         path: ReadonlyArray<string>;
